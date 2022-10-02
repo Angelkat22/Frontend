@@ -1,0 +1,62 @@
+
+
+*{
+    margin: o;
+    padding: 0;
+}
+h1, h2 {
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.am {
+    display: flex;
+    justify-content: center;
+
+}
+.hobby {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    background-color:#E1FFB1;
+    color: black;
+    border: 2px solid green;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 150px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+.Work {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    background-color: #91C788;
+    color: black;
+border: 2px inset green;
+margin: 20px;
+padding: 20px;
+text-align: center;
+}
+.friends {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    background-color:#52734D;
+    color: black;
+border: 2px double green;
+margin: 20px;
+padding: 20px;
+text-align: center;
+}
+
+.socmedia {
+    text-align: center;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+}

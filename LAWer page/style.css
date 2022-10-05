@@ -1,0 +1,140 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2d4059;
+    padding: 10px;
+}
+.item {
+color: white;
+padding: 10px;
+text-transform: uppercase;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+}
+.first {
+    margin-right: auto;
+}
+.about {
+display: flex;
+
+}
+.harvey {
+flex: 1;
+}
+body {
+  background-color: #d6e6f2;
+}
+body:hover {
+    background-color: #f5eee6;
+}
+.law {
+    display: flex;
+   }
+.text {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase; 
+    align-self: center; 
+    padding: 10px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;  
+    color: #112d4e;
+    font-size:30px;
+}
+.heading:hover {
+color: #07689f;
+}
+.branch {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.legal {
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 20px;
+    padding: 30px;
+}
+.legal:hover {
+    background-color:#384259;
+    color: white;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    border: none;
+}
+.cta {
+    background-color: #2d4059;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 15px;
+    cursor: help;
+    
+}
+.cta:hover {
+    background-color: #3f72af;
+}
+
+@media all and (max-width: 800px) {
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;    
+}
+img {
+    width: 450px;}
+  
+.branch {
+        margin-left: 50px;
+
+
+@media all and (max-width: 500px) {
+    img {
+        width: 250px;
+    }
+    .heading {
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+    }
+    .legal {
+        font-size: 6px;
+       
+    }
+    .law {
+        display: flex;
+        justify-content: center;
+    }
+    .text {
+        font-size: 7px;
+        margin-right: 3px;
+    }
+    .skills {
+        display: flex;
+        justify-content: center;
+        margin-left: 18px;
+    }
+    .branch {
+        margin-left: 1px;
+    }
+    .form {
+        display: flex;
+        justify-content: center;
+    }

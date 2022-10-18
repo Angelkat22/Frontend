@@ -1,0 +1,75 @@
+/* Для этой страницы вам понадобятся теги <form>, <input>, <select>, <textarea>, <button> и свойства display: flex; background-color: transparent; псевдокласс hover и тд..
+Hover нужно принимать для всех полей(рамки input, textarea сделать потолще) и для кнопки(поменять background-color). */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.inform{
+    padding: 5px;
+    margin: 15px 20px;
+    display: block;
+}
+
+h1{
+    font-size: 30px;
+    margin: 20px;
+}
+p{
+    font-size: 20px;
+    padding: 5px 0;
+}
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+form{
+    width: 100%;
+    padding: 10px;
+
+}
+input {
+    width: 100%;
+    line-height: 30px;
+}
+textarea{
+    height: 70px;
+    width: 100%;
+}
+select{
+    width: 100%;
+    padding: 7px 0;
+    background: transparent;
+}
+input,select, textarea {
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+input:hover, textarea:hover{
+    border-width: 4px;
+}
+
+.button{
+    margin-top: 10px;
+    text-align: center;
+}
+button:hover{
+    background-color:lightskyblue;
+}
+
+button{
+    width: 10%;
+    padding: 10px;
+    background-color: #3263cd;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    margin: 30px;
+    font-size: 20px;
+}
+.myForm{
+    display: block;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+}
+span {
+    color: red;
+}
+
+.input_row {
+    display: flex;
+}
+fieldset {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+}
+
+
+.input_row label, p {
+    display: flex;
+    width: 100px;
+    padding: 0.7em 3;
+    margin: 2em;
+}
+
+select{
+    width: 32%;
+    padding: 0.7em;
+    margin: 1em;
+}
+
+input{
+    padding: 1em;
+    margin: 1em;
+    width: 30%;
+}
+input[type=checkbox]{
+    width: 10px;
+    margin: opx 7px;
+}
+
+textarea{
+    margin: 1em;
+    width: 31%;
+}
+
+button{
+    margin: 20px;
+    padding: 15px;
+    background-color: light grey;
+}

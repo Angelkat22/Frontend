@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div> 
+        <form action="#" method="post" class="myForm"> 
+        <div class="heading"> 
+            <h1>Форма заявки на работу в зоопарке</h1>
+            <h5><em>Пожалуйста, заполните форму. Обязательные поля помечены<span>*</span></em></h5>
+        </div>
+            <fieldset class="info">
+                <legend><strong>КОНТАКТНАЯ ИНФОРМАЦИЯ</strong></legend>
+                    <div class="input_row"> 
+                        <label for="customer_name">Имя <span>*</span></label>
+                        <input type="text" name="name" id="customer_name">
+                    </div>
+                    <div class="input_row">
+                        <label for="customer_phone">Телефон</label>
+                        <input type="tel" name="phone"  id="customer_phone">
+                    </div>
+                    <div class="input_row">
+                        <label for="customer_email">Email<span>*</span></label>
+                        <input type="email" name="email" id="customer_email">
+                    </div>
+            </fieldset>
+            <fieldset class="info">
+                <legend><strong>ПЕРСОНАЛЬНАЯ ИНФОРМАЦИЯ</strong></legend>
+                    <div class="input_row">
+                        <label for="person_age">Возраст<span>*</span></label>
+                        <input type="text" name="age" id="person_age">
+                    </div>
+                    <div class="input_row">
+                        <p>Пол</p>
+                        <select name="gender">
+                            <option value="#">Женщина</option>
+                            <option value="#">Мужчина</option>
+                        </select>
+                    </div>
+                    <div class="input_row">
+                        <p>Перечислите личные качества</p>
+                        <textarea name="text"></textarea>
+                    </div>
+            </fieldset>
+        
+            <fieldset class="checkbox_list_f">
+                <legend><strong>ВЫБЕРИТЕ ВАШИХ ЛЮБИМЫХ ЖИВОТНЫХ</strong></legend>
+                <label for=""><input type="checkbox">Зебра</label>
+                <label for=""><input type="checkbox">Кошка</label>
+                <label for=""><input type="checkbox">Анаконда</label>
+                <label for=""><input type="checkbox">Человек</label>
+                <label for=""><input type="checkbox">Слон</label>
+                <label for=""><input type="checkbox">Антилопа</label>
+                <label for=""><input type="checkbox">Голубь</label>
+                <label for=""><input type="checkbox">Краб</label>
+
+            </fieldset>
+        
+            <div class="button">  
+                <button>Отправить информацию</button>
+            </div>
+        </form>  
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+h1, h2 {
+    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    background-color: blue;
+    height: 200px;
+}
+.conteiner{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around
+    
+}
+.block{
+    margin: 10px;
+    width: 450px;
+    height: 480px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+h5{
+ margin: 20px;
+}
+p{
+    margin: 20px; 
+}
+img{
+    height: 300px;
+    width: 450px;
+}
+.greybox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(139, 134, 134);
+    height: 30px;
+    color: white;
+    margin: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+

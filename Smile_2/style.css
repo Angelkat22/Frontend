@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    position: relative;
+    margin:  0 auto;
+    background-color: lightgreen;
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+}
+
+.block_eye1, .block_eye2, .block_nouse, .block_mouth,.block_mouth2 {
+    position: absolute;
+    background-color: white;
+    
+}
+.block_eye1{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; 
+    top: 100px;
+    left: 150px;
+}
+.block_eye2{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; 
+    top: 100px;
+    right: 150px;
+}
+
+.block_nouse{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; 
+    top: 300px;
+    left: 280px;
+    z-index: 3;
+}
+.block_mouth{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px; 
+    top: 300px;
+    left: 200px;
+    z-index: 1;
+}
+
+.block_mouth2{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px; 
+    bottom: 150px;
+    left: 200px;
+    z-index: 2;
+    background-color: lightgreen;
+}

@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 50vw;
+    margin: 20px auto 120px;
+    border: 2px solid black;
+    padding: 20px;
+    border: #b63174 solid 1px;
+    font-size: 30px;
+    border-radius: 20px; 
+}
+
+h1{
+    color: #b63174;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+p{
+    padding-bottom: 10px;
+}
+footer{
+    width: 100vw;
+    height: 100px;
+    padding: 35px;
+    background-color:#b63174;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    font-size: 40px;
+}

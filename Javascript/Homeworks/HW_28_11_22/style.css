@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form,
+.products{
+margin: 50px auto;
+border-radius: 15px;
+padding: 60px;
+max-width: 700px;
+width: 100%;
+background-color: lightseagreen;
+}
+input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#form button{
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    background-color: lightseagreen;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* .pass {
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    background-color: lightseagreen;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+} */
+.products{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.total{
+    display:flex;
+    justify-content: center;
+}
+.totalPrice{
+    border-radius: 15px;
+    padding: 5px;
+    width: 210px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightseagreen;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+
+

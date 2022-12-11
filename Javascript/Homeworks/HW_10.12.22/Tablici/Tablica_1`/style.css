@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.item{
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    border: 0;
+}
+.wrapper{
+    height: 100vh;
+    display: grid;
+    
+
+    grid-template: repeat(4,50px)/ repeat(11,70px);
+    gap: 5px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.item-1{
+    grid-column: 1/ span 2;
+    text-align: center;
+    line-height: 45px;
+    background-color: blueviolet;
+}
+
+.item-2{
+    grid-column: 3/ span 3;
+    grid-row: 1/ span 2;
+    text-align: center;
+    background-color: red;
+    line-height: 90px;
+}
+.item-3{
+    grid-column: 6/ span 4;
+    grid-row: 1/ span 4;
+    text-align: center;
+    background-color: orange;
+    line-height: 200px;
+}
+.item-4{
+    grid-column: 10/ span 2;
+    text-align: center;
+    background-color: pink;
+}
+.item-5{
+    grid-column: 1/ span 2;
+    text-align: center;
+    line-height: 45px;
+    background-color: green;
+}
+
+.item-6{
+    grid-column: 10/ span 2;
+    color: white;
+    text-align: center;
+    background-color: lightgreen;
+    line-height: 45px;
+}
+.item-7{
+    grid-column: 1/ span 2;
+    text-align: center;
+    line-height: 45px;
+    background-color: brown;
+}
+.item-8{
+    text-align: center;
+    line-height: 45px;
+    background-color: blue;
+}
+.item-9{
+    grid-column: 4/ span 2;
+    grid-row: 3;
+    text-align: center;
+    line-height: 45px;
+    background-color: black;
+    color: white;
+}
+.item-10{
+    grid-column: 10/ span 2;
+    text-align: center;
+    background-color: darkblue;
+    line-height: 45px;
+}
+
+.item-11{
+    grid-column: 1/ span 5;
+    text-align: center;
+    background-color: greenyellow;
+    line-height: 45px;
+}
+.item-12{
+    grid-column: 10/ span 2;
+    text-align: center;
+    background-color: rgb(69, 33, 33);
+    line-height: 45px;
+}
+
+

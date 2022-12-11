@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    border: 1px solid black;
+    font-size: 30px;
+
+}
+.wrapper{
+    height: 100vh;
+    display: grid;
+    
+
+    grid-template: repeat(5,100px)/ repeat(4,200px);
+    gap: 5px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.item-1{
+    background-image: url('./Media/xandtor-vmKczlvO12A-unsplash.jpg');
+}
+.item-2{
+    grid-column: 2/ span 2;
+    background-image: url('./Media/alexander-grey-9Rc00n8ie-Y-unsplash.jpg');
+}
+
+.item-3{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 4;
+}
+
+.img-A{
+    background-image: url('./Media/alexander-grey-uk-no6Yv91g-unsplash.jpg');
+}
+.img-B{
+    background-image: url('./Media/alexander-grey-9O1iYOHJSYs-unsplash.jpg');
+}
+.item-4{
+    grid-column: 1/ span 2;
+    grid-row: 2;
+    background-image: url('./Media/alexander-grey-Wnkw2eNjvFc-unsplash.jpg');
+}
+.item-5{
+    background-image: url('./Media/shifaaz-shamoon-okVXy9tG3KY-unsplash.jpg');
+}
+
+.item-6{
+    grid-column: 2;
+    grid-row: 3 / span 2;
+    background-image: url('./Media/sebastien-gabriel--IMlv9Jlb24-unsplash.jpg');
+}
+
+.item-7{
+    display: grid;
+    gap: 5px;
+    grid-template: repeat(2, 1fr) repeat(2, 1fr) ;
+    grid-column: 3 /span 2;
+    grid-row: 2 / span 3;
+}
+.img-1{
+    background-image: url('./Media/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg');
+}
+
+.img-2{
+    background-image: url('./Media/alexander-grey-9O1iYOHJSYs-unsplash.jpg');
+}
+
+.img-3{
+    background-image: url('./Media/alexander-grey-9Rc00n8ie-Y-unsplash.jpg');
+    grid-column: 2;
+    grid-row: 1/3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item-8{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1;
+}
+.img-C{
+    background-image: url('./Media/ryan-loughlin-f1Kbt5NC8-I-unsplash.jpg');
+}
+.img-D{
+    background-image: url('./Media/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg');
+}
+
+.item-9{
+    grid-column: 1/ span 2;
+    grid-row: 5;
+    background-image: url('./Media/nima-mot-_dKDQImLUqA-unsplash.jpg');
+}
+.item-10{
+    grid-column: 3/ span 2;
+    grid-row: 5;
+    background-image: url('./Media/xandtor-vmKczlvO12A-unsplash.jpg');
+}
+
+
+
+

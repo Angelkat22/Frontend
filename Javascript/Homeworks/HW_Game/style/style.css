@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game-body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 40px; 
+}
+
+.game-body h2 {
+  font-size: 40px;
+  color: #0002A1;
+  font-weight: bold;
+}
+
+.game-body p {
+  font-size: 30px;
+  color: #332FD0;
+  font-weight: bold;
+}
+
+.game-body button {
+    width: 120px;
+    height: 40px;
+    background-color: #332FD0;
+    border-radius: 5px;
+    font-size: 20px; 
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.game-body button:hover{
+  background-color: green;
+}
+.game_2 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  gap: 40px; 
+
+}
+.game_2 h2 {
+  margin-top: 100px;
+  margin-bottom: 120px;
+  text-align: center;
+  font-size: 40px;
+  color: green;
+  font-weight: bold;
+
+}
+.game_2,
+.winner,
+.looser,
+.oneMoreBtn, 
+.all_winners
+{
+  display: none;
+}
+
+.input {
+  display: flex;
+  justify-content: space-evenly;
+}
+    
+.oneMoreBtn {
+
+  text-align: center;
+  width: 400px;
+  height: 40px;
+  background-color: green;
+  border-radius: 5px;
+  font-size: 30px; 
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+} 
+
+.result {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}

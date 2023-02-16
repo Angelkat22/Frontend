@@ -1,0 +1,23 @@
+.products_card {
+    border: 10px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+
+.products_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.active {
+	color: orange
+}
